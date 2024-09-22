@@ -42,9 +42,9 @@ app.post('/bfhl', (req, res) => {
 
     res.status(200).json({
         is_success: true,
-        user_id: "john_doe_17091999",
-        email: "john@xyz.com",
-        roll_number: "ABCD123",
+        user_id: "pulkitshringi",
+        email: "ph1973@srmist.edu.in",
+        roll_number: "RA2111003010596",
         numbers,
         alphabets,
         highest_lowercase_alphabet: highest_lowercase_alphabet ? [highest_lowercase_alphabet] : [],
